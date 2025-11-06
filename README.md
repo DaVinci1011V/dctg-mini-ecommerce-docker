@@ -207,8 +207,8 @@ POST /login
 
 ## **🙋‍♂️ About This Build**
 
-Built by Mohamed Fahmi, Project Manager & Full-Stack Developer based in Dubai, UAE.  
+Built by Mohamed Fahmi.  
 I focused on clarity, maintainability, and team collaboration in this implementation — reflecting my real-world delivery standards.
 
-📧 Email: mohamed.fahmi@email.com  
-🔗 LinkedIn: linkedin.com/in/mohamedfahmi
+📧 Email: mohamed.fahmi1011@gmail.com  
+🔗 LinkedIn: linkedin.com/in/mohamed-fahmi1011/
