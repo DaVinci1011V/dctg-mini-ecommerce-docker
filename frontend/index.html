@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mini E-Commerce</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>🛍️ Mini E-Commerce Product Listing</h1>
+    <div id="auth">
+      <button id="loginBtn">Login as admin</button>
+      <span id="authStatus">Not logged in</span>
+      <button id="logoutBtn" style="display:none;">Logout</button>
+    </div>
+  </header>
+
+  <section class="card">
+    <h2>Add a New Product</h2>
+    <form id="productForm">
+      <input id="name" placeholder="Product Name" required />
+      <input id="price" type="number" step="0.01" placeholder="Price" required />
+      <input id="category" placeholder="Category" required />
+      <select id="instock" required>
+        <option value="true">In Stock</option>
+        <option value="false">Out of Stock</option>
+      </select>
+      <button type="submit">Add Product</button>
+    </form>
+    <p class="note">* Requires admin login (bonus feature)</p>
+  </section>
+
+  <section class="card">
+    <h2>Browse Products</h2>
+
+    <div class="filters">
+      <input id="filterCategory" placeholder="Filter: Category"/>
+      <select id="filterStock">
+        <option value="">Any stock</option>
+        <option value="true">In stock</option>
+        <option value="false">Out of stock</option>
+      </select>
+      <select id="limit">
+        <option value="5">5 / page</option>
+        <option value="10" selected>10 / page</option>
+        <option value="20">20 / page</option>
+      </select>
+      <button id="applyFilters">Apply</button>
+      <button id="clearFilters">Clear</button>
+    </div>
+
+    <div id="products"></div>
+
+    <div class="pager">
+      <button id="prevPage">« Prev</button>
+      <span id="pageInfo"></span>
+      <button id="nextPage">Next »</button>
+    </div>
+  </section>
+
+  <footer>
+    <span>API docs: <a href="/docs" target="_blank">Swagger</a></span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

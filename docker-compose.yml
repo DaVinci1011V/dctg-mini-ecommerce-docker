@@ -1,0 +1,17 @@
+services:
+  api:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports: ["4000:4000"]
+    volumes:
+      - ./backend:/app
+      - /app/node_modules
+      - ./frontend:/app/frontend
+      - ./openapi.yaml:/app/openapi.yaml:ro
+    environment:
+      - PORT=4000
+      - JWT_SECRET=dev_secret_change_me
+      - ADMIN_USER=admin
+      - ADMIN_PASS=admin123
+    command: sh -c "npm install --omit=dev && node server.js"
