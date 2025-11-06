@@ -221,4 +221,4 @@ Built by Mohamed Fahmi.
 I focused on clarity, maintainability, and team collaboration in this implementation — reflecting my real-world delivery standards.
 
 📧 Email: mohamed.fahmi1011@gmail.com  
-🔗 LinkedIn: linkedin.com/in/mohamed-fahmi1011/
+🔗 LinkedIn: [linkedin.com/in/mohamed-fahmi1011/](https://www.linkedin.com/in/mohamed-fahmi1011/)
