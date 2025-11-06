@@ -8,7 +8,17 @@ A fully Dockerized mini e-commerce product listing module built with Node.js (Ex
 
 ### **🖥️ Web Interface ([http://localhost:4000](http://localhost:4000))**
 
+<img width="1919" height="951" alt="Screenshot 2025-11-06 161053" src="https://github.com/user-attachments/assets/7805b987-00aa-4421-b43a-94b64f71f5ae" />
+<img width="1918" height="958" alt="Screenshot 2025-11-06 161313" src="https://github.com/user-attachments/assets/e133382c-2e11-4b00-9d8e-edcfcd8d0ee3" />
+<img width="1918" height="898" alt="Screenshot 2025-11-06 161327" src="https://github.com/user-attachments/assets/b9ad2b81-1d3f-434d-9af8-b948eabe1a7e" />
+
 ### **📘 API Documentation ([http://localhost:4000/docs](http://localhost:4000/docs))**
+
+<img width="1919" height="956" alt="Screenshot 2025-11-06 161143" src="https://github.com/user-attachments/assets/b1c254c0-728c-4a3c-890d-2f31a7c17405" />
+<img width="1910" height="962" alt="Screenshot 2025-11-06 161206" src="https://github.com/user-attachments/assets/9ba77cb7-8432-4049-92e9-7eb6fa7cac79" />
+<img width="1905" height="958" alt="Screenshot 2025-11-06 161229" src="https://github.com/user-attachments/assets/1d7c3cc6-bd2e-4cdb-8727-2929b4222773" />
+<img width="1919" height="950" alt="Screenshot 2025-11-06 161243" src="https://github.com/user-attachments/assets/94ab1eb6-47e6-4556-b92c-6450dcd53294" />
+
 
 ---
 
